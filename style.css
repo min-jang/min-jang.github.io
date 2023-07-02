@@ -6,31 +6,21 @@ html{
 
 h1{
     font-size: 3em;
+    font-weight: bolder;
 }
 
 em{
     font-size: 0.9em;
 }
 
-#icon{
-    width: 50px;
-}
-
+/* opening page rules*/
 #intro{
     display: flex;
     height: auto;
+    margin-top: 5em;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-}
-
-#popups{
-    display: flex;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 #text{
@@ -46,26 +36,31 @@ em{
     padding-left: 150px;
 }
 
-#poster, #metro-kiosk{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    height: auto;
-}
 
+/* about page rules */
 #me{
     padding: 1em;
     border: 2px solid #333;
     box-shadow: 15px 15px 1px#96A78D;
 }
 
-.sub, h3{
-    margin-left: 30px;
+
+/* projects page rules */
+#popups{
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.descriptions{
-    margin-left: 30px;
+#poster, #metro-kiosk{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
 }
 
 .box {
@@ -78,8 +73,7 @@ em{
     border-radius: 10px;
     background-clip: padding-box;
     text-align: center;
-}
-  
+} 
 .button {
     width: auto;
     font-size: 1em;
@@ -92,8 +86,7 @@ em{
 }
 .box:hover {
     background: #fff;
-}
-  
+} 
 .overlay {
     position: fixed;
     top: 0;
@@ -108,8 +101,7 @@ em{
 .overlay:target {
     visibility: visible;
     opacity: 1;
-}
-  
+} 
 .popup {
     margin: 40px auto;
     padding: 15px;
@@ -118,8 +110,7 @@ em{
     width: 60%;
     position: relative;
     transition: all 5s ease-in-out;
-}
-  
+} 
 .popup h2 {
     margin-top: 0;
     color: #333;
@@ -141,10 +132,40 @@ em{
     overflow: auto;
 }
 
+/* rules used throughout */
+.descriptions{
+    margin-left: 30px;
+}
+
 .divs{
     height: 100vh;
     padding: 60px 40px;
     float: center;
+}
+
+.sub, h3{
+    margin-left: 30px;
+}
+
+/* contact page rules */
+.contacts{
+    width: 4em;
+    padding: 10px;
+}
+
+#contact{
+    font-size: 1.5em;
+}
+
+#icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* navigation bar rules */
+#icon{
+    width: 50px;
 }
 
 .navbar {
@@ -176,21 +197,6 @@ em{
 .navbar a:hover {
     background: #96A78D;
     font-style: oblique;
-}
-
-.contacts{
-    width: 4em;
-    padding: 10px;
-}
-
-#contact{
-    font-size: 1.5em;
-}
-
-#icons{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
   
   
