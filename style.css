@@ -63,27 +63,73 @@ em{
     height: auto;
 }
 
-.box {
+#capstone-examples{
+    display: flex;
+    flex-direction: row;
+}
+
+.metro-kiosk{
+    width: 425px;
+    height: auto;
+    padding: 5px;
+}
+
+.capstone-screenshots{
+    width: 245px;
+    height: auto;
+}
+
+.covers{
+    display: block;
     width: 400px;
-    height: 175px;
-    margin: 5px 10px;
+    height: 275px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    margin: auto;
+}
+
+.covers-vert{
+    display: block;
+    width: 175px;
+    height: auto;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    margin: auto;
+}
+
+.box{
+    width: 420px;
+    height: 510px;
+    margin: 5px 5px;
     background: #96A78D;
-    padding: 10px;
+    padding: 3px;
     border: 2px solid #96A78D;
+    border-radius: 10px;
+}
+
+.project-description{
+    display: block;
+    width: 400px;
+    height: auto;
+    margin: 5px 5px;
     border-radius: 10px;
     background-clip: padding-box;
     text-align: center;
-} 
+    margin: auto;
+    text-decoration: none;
+    line-height: 2;
+}
+
 .button {
     width: auto;
     font-size: 1em;
-    padding: 10px;
+    padding: 5px;
     color: #000;
-    line-height: 2;
     text-decoration: none;
-    cursor: pointer;
-    transition: all 0.3s ease-out;
+    align-items: center;
+    justify-content: center;
 }
+
 .box:hover {
     background: #fff;
 } 
