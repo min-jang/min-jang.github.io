@@ -97,6 +97,16 @@ em{
     margin: auto;
 }
 
+.kc{
+    width: 200px;
+    height: auto;
+}
+
+.tracker{
+    width: 450px;
+    height: auto;
+}
+
 .box{
     width: 420px;
     height: 510px;
